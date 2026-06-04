@@ -79,9 +79,12 @@ Ensuring reliability, efficiency, and consistency across complex applications.
                 </div>
                 {/* image container */}
                 <div className='relative rounded-2xl overflow-hidden m-px h-[calc(1005-2px)]'>
-                  <img src={PERSONAL_INFO.image}
+                  <img src={PERSONAL_INFO.image} 
                     alt="devOpAtWork"
-                    className='w-full h-full object-cover' />
+                    className='w-full h-full object-cover' /> || <img src='src/assets/profileImg1.jpeg'
+                    alt="devOpAtWork"
+                    className='w-full h-full object-cover'
+                    />
                 </div>
                 {/* Technologies Logos */}
                 <div className='absolute bottom-5 left-6 z-20'>
