@@ -4,6 +4,7 @@ import { SiReact, SiExpressdotcom, SiNodedotjs, SiMongodb } from 'react-icons/si
 import { PERSONAL_INFO, STATS } from '../../utils/constants';
 import { scrollToSection } from '../../hooks/useScrollSpy';
 import FadeIn from '../animation/FadeIn';
+import devWorks from 'src/assets/profileImg1.jpeg'
 import RadialGradientBackground from '../backgrounds/RadialGradientBackground';
 
 const Hero = () => {
@@ -79,9 +80,11 @@ Ensuring reliability, efficiency, and consistency across complex applications.
                 </div>
                 {/* image container */}
                 <div className='relative rounded-2xl overflow-hidden m-px h-[calc(1005-2px)]'>
-                  <img src={PERSONAL_INFO.image} 
+                  {/* <img src={PERSONAL_INFO.image} 
                     alt="devOpAtWork"
-                    className='w-full h-full object-cover' /> || <img src='src/assets/profileImg1.jpeg'
+                    className='w-full h-full object-cover' /> || */}
+                    
+                    <img src={devWorks} 
                     alt="devOpAtWork"
                     className='w-full h-full object-cover'
                     />
