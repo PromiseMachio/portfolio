@@ -4,7 +4,7 @@ export const PERSONAL_INFO={
     email:'machiopromise05@gmail.com',
     location:'Nairobi,kenya',
     tagline:'Crafting seamless ...',
-    image:'public/myPics/profileImg1.jpeg',
+    image:'src/assets/hero.png',
     resume:'/.pdf',
     bio:[
         "I'm a passionate ... ",
