@@ -4,12 +4,12 @@ import { SiReact, SiExpressdotcom, SiNodedotjs, SiMongodb } from 'react-icons/si
 import { PERSONAL_INFO, STATS } from '../../utils/constants';
 import { scrollToSection } from '../../hooks/useScrollSpy';
 import FadeIn from '../animation/FadeIn';
-import devWorks from 'src/assets/profileImg1.jpeg'
+// import devWorks from 'src/assets/profileImg1.jpeg'
 import RadialGradientBackground from '../backgrounds/RadialGradientBackground';
 
 const Hero = () => {
   return (
-    <section className='relative min-h-screen flex items-center overflow-hidden bg-black mt-20 mb-10'>
+    <section id='hero' className='relative min-h-screen flex items-center overflow-hidden bg-black mt-20 mb-10'>
       <RadialGradientBackground variant="hero" />
 
       {/* container for all left and right  */}
@@ -80,14 +80,14 @@ Ensuring reliability, efficiency, and consistency across complex applications.
                 </div>
                 {/* image container */}
                 <div className='relative rounded-2xl overflow-hidden m-px h-[calc(1005-2px)]'>
-                  {/* <img src={PERSONAL_INFO.image} 
+                  <img src={PERSONAL_INFO.image} 
                     alt="devOpAtWork"
-                    className='w-full h-full object-cover' /> || */}
+                    className='w-full h-full object-cover' /> ||
                     
-                    <img src={devWorks} 
+                    {/* <img src={devWorks} 
                     alt="devOpAtWork"
                     className='w-full h-full object-cover'
-                    />
+                    /> */}
                 </div>
                 {/* Technologies Logos */}
                 <div className='absolute bottom-5 left-6 z-20'>
